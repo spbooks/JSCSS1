@@ -1,0 +1,323 @@
+@font-face {
+   font-family: 'ChelseaMarket';
+   src: url('../fonts/chelseamarket-regular-webfont.eot');
+   src: url('../fonts/chelseamarket-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/chelseamarket-regular-webfont.woff') format('woff'),
+        url('../fonts/chelseamarket-regular-webfont.ttf') format('truetype'),
+        url('../fonts/chelseamarket-regular-webfont.svg#chelsea_marketregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'LatoBold';
+   src: url('../fonts/lato-bold-webfont.eot');
+   src: url('../fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato-bold-webfont.woff') format('woff'),
+        url('../fonts/lato-bold-webfont.ttf') format('truetype'),
+        url('../fonts/lato-bold-webfont.svg#latobold') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url('../fonts/lato-regular-webfont.eot');
+   src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato-regular-webfont.woff') format('woff'),
+        url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+        url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+.cf:before,
+.cf:after {
+   content: " ";
+   display: table;
+}
+
+.cf:after {
+   clear: both;
+}
+
+.cf {
+   *zoom: 1; /* for IE6 and IE7 */
+}
+
+* {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+body {
+  background: #cab5a3 url(../images/bg-main.gif) repeat repeat 0 0;
+  color: #333;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #544a40;
+}
+
+a:hover {
+
+}
+
+h1, h2, nav {
+  font-family: ChelseaMarket, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #810430;
+}
+
+.center-global {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+body > header {
+  box-shadow: rgba(0, 0, 0, .25) 0 3px 2px 0;
+  position: relative;
+  z-index: 10;
+}
+
+  .logo {
+    float: left;
+    margin-left: 145px;
+    margin-top: -34px;
+    position: relative;
+    top: 34px;
+  }
+
+  nav {
+    float: right;
+    margin-right: 177px;
+    padding-top: 20px;
+  }
+
+    nav a {
+      color: #fefefe;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      *display: inline; /* for IE7 */
+      margin-right: 30px;
+      font-size: 20px;
+    }
+
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+
+.promo {
+  position: relative;
+  z-index: 5;
+  padding-bottom: 8px;
+  box-shadow: rgba(0, 0, 0, .25) 0 3px 2px 0;
+}
+
+  .promo-desc {
+    position: absolute;
+    bottom: 93px;
+    right: 75px;
+    width: 316px;
+    text-align: center;
+  }
+
+    .promo-desc h1 {
+      color: #fefefe;
+    }
+
+  .promo-btn {
+    display: inline-block;
+    width: 208px;
+    padding: 13px 0;
+    background-color: #6c0733;
+    box-shadow: rgba(0, 0, 0, .25) 0 7px 2px 0;
+    font-size: 20px;
+    color: #fefefe;
+  }
+
+.main {
+  padding-bottom: 33px;
+}
+
+.latest {
+  width: 640px;
+  float: left;
+  padding: 0 40px;
+  background: url(../images/bg-column.png) no-repeat top right;
+}
+
+    .media {
+      clear: left;
+      padding-bottom: 28px;
+      overflow: hidden;
+    }
+
+      .media h2 {
+        color: #49301a;
+        font-family: LatoBold, Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 26px;
+        margin-bottom: 5px;
+      }
+
+      .media img {
+        float: left;
+        margin-right: 30px;
+        border: solid 9px #ede0d5;
+        box-shadow: rgba(0, 0, 0, .25) 2px 2px 2px 0;
+      }
+
+      .media p {
+        margin: 0;
+        font-family: Lato, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #7b6047;
+        text-transform: uppercase;
+      }
+
+       .media p span {
+         font-size: 25px;
+       }
+
+  .more-btn {
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    width: 280px;
+  }
+
+.sidebar {
+  width: 360px;
+  float: right; 
+}
+
+  .popular {
+    padding-bottom: 40px;
+  }
+
+  .rating {
+    float: left;
+    clear: left;
+    padding-top: 4px;
+    padding-right: 15px;
+    width: 45px;
+    color: #810430;
+    font-size: 13px;
+  }
+
+  .pop-item {
+    padding-bottom: 20px;
+    float: left;
+    width: 250px;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+    .pop-item a {
+      color: #544a40;
+    }
+
+  .tweet {
+    padding-left: 55px;
+    padding-right: 20px;
+    position: relative;
+    line-height: 1.4;
+  }
+
+   .tweet:before {
+     content: url(../images/twitter-icon.png);
+     display: block;
+     position: absolute;
+     left: 15px;
+     top: 4px;
+   }
+
+   .tweet a {
+     color: #810430;
+   }
+
+   a.date {
+     color: #8f7e6d;
+     font-faily: Arial, sans-serif;
+     font-size: 12px;
+     font-style: italic;
+   }
+
+footer {
+  background-color: rgb(66, 3, 30);
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+   footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-inside {
+    padding-left: 40px;
+  }
+
+    .footer-1 {
+      float: left;
+      width: 422px;
+    }
+
+      .footer-1 h2 {
+        font-size: 36px;
+      }
+
+      .footer-1 ul, .footer-2 ul {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.7;
+      }
+
+      .footer-1 li {
+        float: left;
+        width: 195px;
+      }
+
+        .footer-1 ul a,
+        .footer-2 ul a {
+         color: #ab97a0;
+        }
+
+    .footer-2 {
+      float: left;
+      width: 326px;
+      padding-top: 22px;
+    }
+
+      .footer-2 ul {
+        margin: 0 80px 0 0;
+      }
+
+    .footer-3 {
+      float: left;
+      width: 232px;
+      color: #801c48;
+      padding-top: 22px;
+    }
+
+      .footer-3 h2, .footer-3 a {
+        color: #801c48;  
+      }
+
+      .footer-3 li {
+        line-height: 1.7;
+      }

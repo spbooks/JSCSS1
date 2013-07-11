@@ -1,0 +1,188 @@
+.cf:before,
+.cf:after {
+   content: " ";
+   display: table;
+}
+
+.cf:after {
+   clear: both;
+}
+
+.cf {
+   *zoom: 1; /* for IE6 and IE7 */
+}
+
+* {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+body {
+  background: #cab5a3 url(../images/bg-main.gif) repeat repeat 0 0;
+}
+
+a:link, a:visited {
+
+}
+
+a:hover {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+.center-global {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+body > header {
+  box-shadow: rgba(0, 0, 0, .25) 0 3px 2px 0;
+  position: relative;
+  z-index: 10;
+}
+
+  .logo {
+    float: left;
+    margin-left: 145px;
+    margin-top: -34px;
+    position: relative;
+    top: 34px;
+  }
+
+  nav {
+    float: right;
+    margin-right: 177px;
+    padding-top: 20px;
+  }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      *display: inline; /* for IE7 */
+      margin-right: 30px;
+    }
+
+.promo {
+  position: relative;
+  z-index: 5;
+  padding-bottom: 8px;
+  box-shadow: rgba(0, 0, 0, .25) 0 3px 2px 0;
+}
+
+  .promo-desc {
+    position: absolute;
+    bottom: 93px;
+    right: 75px;
+    width: 316px;
+  }
+
+  .promo-btn {
+    display: inline-block;
+    width: 208px;
+    padding: 13px 0;
+    background-color: #6c0733;
+    box-shadow: rgba(0, 0, 0, .25) 0 7px 2px 0;
+  }
+
+.main {
+}
+
+.latest {
+  width: 640px;
+  float: left;
+  padding: 0 40px;
+  background: url(../images/bg-column.png) no-repeat top right;
+}
+
+    .media {
+      clear: left;
+      padding-bottom: 28px;
+      overflow: hidden;
+    }
+
+      .media img {
+        float: left;
+        margin-right: 30px;
+        border: solid 9px #ede0d5;
+        box-shadow: rgba(0, 0, 0, .25) 2px 2px 2px 0;
+      }
+
+  .more-btn {
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    width: 280px;
+  }
+
+.sidebar {
+  width: 360px;
+  float: right; 
+}
+
+  .popular {
+    padding-bottom: 40px;
+  }
+
+  .rating {
+    float: left;
+    clear: left;
+    padding-top: 4px;
+    padding-right: 15px;
+    width: 45px;
+  }
+
+  .pop-item {
+    padding-bottom: 20px;
+    float: left;
+    width: 250px;
+  }
+
+  .tweet {
+    padding-left: 55px;
+    padding-right: 20px;
+    position: relative;
+  }
+
+   .tweet:before {
+     content: url(../images/twitter-icon.png);
+     display: block;
+     position: absolute;
+     left: 15px;
+     top: 4px;
+   }
+
+footer {
+  background-color: rgb(66, 3, 30);
+}
+
+  .footer-inside {
+    padding-left: 40px;
+  }
+
+    .footer-1 {
+      float: left;
+      width: 422px;
+    }
+
+    .footer-2 {
+      float: left;
+      width: 326px;
+    }
+
+    .footer-3 {
+      float: left;
+      width: 232px;
+    }
